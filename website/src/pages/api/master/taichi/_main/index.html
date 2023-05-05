@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -125,11 +124,11 @@
              </strong> 
           
             
-            <a class="dropdown-item" href="/api/">v1.4.1</a>
+            <a class="dropdown-item" href="/api/">v1.5.0</a>
             
           
             
-            <a class="dropdown-item" href="/api/v1.3.0/">v1.3.0</a>
+            <a class="dropdown-item" href="/api/v1.4.1/">v1.4.1</a>
             
           
         </div>
@@ -251,15 +250,6 @@
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#taichi._main.TaichiMain.cc_compose">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       TaichiMain.cc_compose()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#taichi._main.TaichiMain.changelog">
      <code class="docutils literal notranslate">
       <span class="pre">
@@ -345,6 +335,15 @@
      <code class="docutils literal notranslate">
       <span class="pre">
        TaichiMain.lint()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#taichi._main.TaichiMain.module">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       TaichiMain.module()
       </span>
      </code>
     </a>
@@ -484,11 +483,6 @@
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#taichi._main.TaichiMain.cc_compose">
-     cc_compose
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#taichi._main.TaichiMain.changelog">
      changelog
     </a>
@@ -536,6 +530,11 @@
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#taichi._main.TaichiMain.lint">
      lint
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#taichi._main.TaichiMain.module">
+     module
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -644,12 +643,6 @@
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="taichi._main.TaichiMain.cc_compose">
-<span class="sig-name descname"><span class="pre">cc_compose</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">self,</span> <span class="pre">arguments:</span> <span class="pre">list</span> <span class="pre">=</span> <span class="pre">sys.argv[2:]</span></em><span class="sig-paren">)</span><a class="headerlink" href="#taichi._main.TaichiMain.cc_compose" title="Permalink to this definition">#</a></dt>
-<dd><p>Compose C backend action record into a complete C file</p>
-</dd></dl>
-
-<dl class="py method">
 <dt class="sig sig-object py" id="taichi._main.TaichiMain.changelog">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">changelog</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">arguments:</span> <span class="pre">list</span> <span class="pre">=</span> <span class="pre">sys.argv[2:]</span></em><span class="sig-paren">)</span><a class="headerlink" href="#taichi._main.TaichiMain.changelog" title="Permalink to this definition">#</a></dt>
 <dd><p>Display changelog of current version</p>
@@ -707,6 +700,12 @@
 <dt class="sig sig-object py" id="taichi._main.TaichiMain.lint">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">lint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">arguments:</span> <span class="pre">list</span> <span class="pre">=</span> <span class="pre">sys.argv[2:]</span></em><span class="sig-paren">)</span><a class="headerlink" href="#taichi._main.TaichiMain.lint" title="Permalink to this definition">#</a></dt>
 <dd><p>Run pylint checker for the Python codebase of Taichi</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="taichi._main.TaichiMain.module">
+<span class="sig-name descname"><span class="pre">module</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">self,</span> <span class="pre">arguments:</span> <span class="pre">list</span> <span class="pre">=</span> <span class="pre">sys.argv[2:]</span></em><span class="sig-paren">)</span><a class="headerlink" href="#taichi._main.TaichiMain.module" title="Permalink to this definition">#</a></dt>
+<dd><p>Taichi module tools</p>
 </dd></dl>
 
 <dl class="py method">
@@ -815,7 +814,7 @@
     
     <div class="footer-item">
       <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 6.1.3.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 7.0.0.<br>
 </p>
     </div>
     
